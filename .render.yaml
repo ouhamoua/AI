@@ -1,9 +1,2 @@
-services:
-  - type: web
-    name: mon-service-ai       # <=== remplace par le nom que tu veux
-    env: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
 build:
   pythonVersion: 3.10
